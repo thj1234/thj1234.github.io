@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-image: url("bg.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}
+h2 {
+    font-size: 3rem;
+    /* font-weight: 900; */
+}
+p {
+    font-size: 1.25rem;
+    letter-spacing: 0.5px;
+}
+a {
+    color: white;
+}
+
+button#darkmode {
+    background-color: hsla(0, 0%, 0%, 0);
+    border: none;
+}
+button#darkmode:hover {
+    cursor: pointer;
+}
+.darkmode {
+    background-color: hsla(0, 0%, 100%, 0.75) !important;
+    color: black !important;
+}
+.black {
+    color: black;
+}
+.white {
+    color: white;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+    margin-bottom: 100px;
+}
+img#jerma {
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+}
+header > h1 {
+    font-weight: 900;
+}
+header > p {
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+
+
+
+section {
+    background-color: hsla(0, 0%, 10%, 0.5);
+}
+section > div {
+    max-width: 1300px;
+    margin: 0 auto 200px auto;
+    padding: 50px;
+}
+
+
+#aboutme {
+    display: flex;
+    flex-wrap: wrap;
+}
+#aboutmetext {
+    margin-right: 20px;
+}
+#aboutmeimg {
+    margin: 0 auto;
+}
+#aboutmeimg > img {
+    max-width: 30rem;
+    min-width: 15rem;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+
+
+div.items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+div.item {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 25rem;
+    min-width: 15rem;
+    min-height: 0;
+}
+div.itemtext {
+    background-color: hsl(0, 0%, 10%);
+    padding: 20px;
+}
+
+div.itemtext > a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+div.itemtext > a:hover {
+    text-decoration: underline;
+}

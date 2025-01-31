@@ -1,21 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My First Web Page</title>
-        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    </head>
-    <body>
-        <h1>Hi! I am Thomas</h1>
-        <h2>HTML Tasks</h2>
-        <ol>
-            <li>
-                <a href="JimenezExplorePHTours.html">Explore PH Tours</a>
-            </li>
-            <li>
-                <a href="JimenezCourseSchedule.html">2nd Term Course Schedule</a>
-            </li>
-        </ol>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="jerma.jpg" id="jerma">
+        <h1>Thomas Harvey S. Jimenez</h1>
+        <p>IT103 - A222</p>
+        <button id="darkmode"><img src="lightmode.png"></button>
+    </header>
+
+    <main>
+        <section>
+            <div id="aboutme">
+                <div id="aboutmetext">
+                    <h2>About Me</h2>
+                    <p>Hello, I'm a student in Mapua Malayan Colleges Mindanao who is learning HTML, CSS, and JavaScript. Here are my 2 favorite video games!</p>
+                </div>
+                <div id="aboutmeimg">
+                    <img src="tf2.png">
+                    <img src="ddrace.png">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>Achievements</h2>
+                <div class="items">
+                    <div class="item">
+                        <img src="phtours.png">
+                        <div class="itemtext">
+                            <a href="JimenezExplorePHTours.html">Explore PH Tours</a>
+                            <p>Explore the Philippines like never before with our exciting packages. Limited slots available for promo deals. Don't miss out!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="table.png">
+                        <div class="itemtext">
+                            <a href="JimenezCourseSchedule.html">2nd Term Course Schedule</a>
+                            <p>I think my schedule is alright.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="flexboxfrog.png">
+                        <div class="itemtext">
+                            <a href="https://flexboxfroggy.com/">Completed All Flexbox Froggy Levels</a>
+                            <p>Took me about an hour. It was a fun way to learn how to use CSS flex box!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="codechum.png">
+                        <div class="itemtext">
+                            <a href="https://codechum.com/">Completed CodeChum Lessons 1-3</a>
+                            <p>Each topic took about ~10 minutes. Sometimes it took 20 minutes instead either because I got
+                                distracted or tried to figure out why I wasn't passing some of the test cases despite
+                                following the instructions perfectly.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="moon.jpg">
+                        <div class="itemtext">
+                            <a href="https://en.wikipedia.org/wiki/Moon_landing">Landed On The Moon</a>
+                            <p>Here's an image of me on the moon. I remember being so excited! This was 50 years ago, but I still think about it today. Breathing was pretty difficult but walking was quite fun.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
 </html>
